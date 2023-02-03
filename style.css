@@ -60,6 +60,7 @@ h4 .a{
   width: 500px;
   flex-direction: column;
   padding-right: 4em;
+  cursor: url(/img/cursorpointer.png), auto;
 }
 
 .select-box .options-container {
@@ -73,6 +74,7 @@ h4 .a{
   overflow: hidden;
 
   order: 1;
+  cursor: url(/img/cursordefault.png), auto;
 }
 
 
@@ -84,6 +86,7 @@ h4 .a{
   position: relative;
 
   order: 0;
+  cursor: url(/img/cursordefault.png), auto;
 }
 
 .selected::after {
@@ -128,6 +131,7 @@ h4 .a{
   padding: 12px 24px;
   cursor: pointer;
   background: #2f3640;
+  cursor: url(/img/cursorpointer.png), auto;
 }
 
 .select-box .option:hover {
