@@ -5,19 +5,54 @@
   box-sizing: border-box;
 }
 
+
 body {
-  font-family: "Roboto", sans-serif;
-  background: #f7f6ff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+  font-family: 'Rubik', sans-serif;
+  background-color: #2554AC;
+  cursor: url(/img/cursordefault.png), auto;
 }
+
 
 h2 {
-  margin: 16px;
+  text-align: center;
+  margin-top: 2em;
+  color: #ffff;
+  font-size: 5em;
+  transition: 2s;
 }
 
-.container {
-  margin-top: 100px;
-  padding: 32px;
+h2::selection{
+  background:rgb(209, 209, 1);
 }
+
+h4 {
+  text-align: center;
+  margin-bottom: 1em;
+  color: #ffff;
+  font-size: 2em;
+  transition: 2s;
+}
+
+h4 :hover {
+  background-color: rgb(209, 209, 1);
+  transition: calc(1s);
+  text-decoration: underline;
+  cursor: url(/img/cursorpointer.png), auto;
+}
+
+h4 .a{
+  transition: 7s;
+}
+
+
+.container {
+  padding: 32px;
+  right: 0;
+}
+
 
 .select-box {
   display: flex;
