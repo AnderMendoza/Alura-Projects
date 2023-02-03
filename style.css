@@ -55,8 +55,9 @@ h4 .a{
 
 
 .select-box {
+  margin: 0 auto;
   display: flex;
-  width: 400px;
+  width: 500px;
   flex-direction: column;
   padding-right: 4em;
 }
@@ -73,6 +74,7 @@ h4 .a{
 
   order: 1;
 }
+
 
 .selected {
   background: #2f3640;
@@ -125,6 +127,7 @@ h4 .a{
 .selected {
   padding: 12px 24px;
   cursor: pointer;
+  background: #2f3640;
 }
 
 .select-box .option:hover {
@@ -133,6 +136,7 @@ h4 .a{
 
 .select-box label {
   cursor: pointer;
+  background: #2f3640;
 }
 
 .select-box .option .radio {
