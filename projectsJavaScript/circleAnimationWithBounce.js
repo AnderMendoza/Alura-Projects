@@ -12,20 +12,20 @@ function disenharCircunferencia(x,y,radio){
 
 function limpiarPantalla(){
 
-    pincel.clearRect(0,0,600,400);
+    pincel.clearRect(0,0,900,400);
 
 }
 
 var x = 0
-var sentido = 1;
+var sentido = 8;
 
 function actualizarPantalla(){
 
     limpiarPantalla();
-    if(x > 600){
-        sentido = -1;
+    if(x > 900){
+        sentido = -8;
     }else if(x < 0){
-        sentido = 1;
+        sentido = 8;
     }
 
     disenharCircunferencia(x,20,10);
