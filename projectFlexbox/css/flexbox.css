@@ -10,6 +10,26 @@
 
 
 
+/* NUESTROS CURSOS */
+.contenidoPrincipal-cursos {
+    display: flex;
+    flex-wrap: wrap;
+}
+.contenidoPrincipal-cursos-link {
+    display: flex;
+    width: 23%;
+}
+
+
+
+/* VIDEO */
+.videoSobre .container {
+    display: flex;
+}
+
+
+
+/* MAPA DE CURSOS */
 .rodapePrincipal-navMap-list {
     display: flex;
     flex-direction: column;
@@ -20,7 +40,7 @@
 
 
 /* FOOTER */
-.rodapePrincipal-patrocinadores .container{
+.rodapePrincipal-patrocinadores .container {
     display: flex;
     justify-content: space-between;
 }
