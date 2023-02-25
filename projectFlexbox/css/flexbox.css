@@ -10,6 +10,15 @@
 
 
 
+.rodapePrincipal-navMap-list {
+    display: flex;
+    flex-direction: column;
+    height: 255px;
+    flex-wrap: wrap;
+}
+
+
+
 /* FOOTER */
 .rodapePrincipal-patrocinadores .container{
     display: flex;
