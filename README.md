@@ -79,7 +79,7 @@ For more information about the program you can review 👉[here](https://www.ora
 Alura is the online arm of Caelum, a renowned school of technology and innovation in Brazil.
 The founders, Paulo Silveira and Guilherme Silveira, realized that many students had an interest in their courses only that they did not have access to our content due to distance and time. Thus, the online platform was born in 2011, with the success of the project they created their own brand Alura in June 2013.
 
-For more information about the program you can review 👉[here](https://www.aluracursos.com/)👈
+For more information about this platform you can review 👉[here](https://www.aluracursos.com/)👈
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
