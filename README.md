@@ -46,6 +46,15 @@
 
 
 
+<!-- ABOUT THE PROJECT -->
+## About the project
+
+In this repository I insert all the projects that I have done in the course of my training within the ONE program by [Oracle](https://www.oracle.com/) in collaboration with [Alura](https://www.aluracursos.com/). Here you can find projects with HTML, CSS, JavaScript and more. The route I have chosen is that of Front-End developer, so the projects and exercises seen here are in relation to that route. With this I seek to organize and present the development of my training process as proof of my hard work and commitment to this great opportunity to which I agreed.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
 
 
 
