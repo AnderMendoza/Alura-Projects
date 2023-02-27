@@ -111,6 +111,17 @@ Anderson Mendoza - [@Anderson](https://www.linkedin.com/in/anderson-mendoza-ramo
 
 
 
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+I would like to thank everyone involved in this program because without them none of this would be a reality. As always my gratitude for this opportunity will be infinite and I hope that in the future we will be able to strengthen our ties no longer as a student but as a professional.
+
+* [Oracle](https://www.oracle.com/pe/)
+* [Alura](https://www.aluracursos.com/)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
