@@ -31,6 +31,21 @@
 
 
 
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li><a href="#about-the-project">About the project</a></li>
+    <li><a href="#one-program">ONE program</a></li>
+    <li><a href="#alura-latam">Alura platform</a></li>
+    <li><a href="#contribution">Contribution</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
+
+
+
 
 
 
