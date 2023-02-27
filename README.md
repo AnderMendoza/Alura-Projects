@@ -58,7 +58,7 @@ In this repository I insert all the projects that I have done in the course of m
 <!-- ONE PROGRAM -->
 ## One program
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/G10bVuLxeAc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+[![](https://res.cloudinary.com/marcomontalbano/image/upload/v1677540336/video_to_markdown/images/youtube--G10bVuLxeAc-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=G10bVuLxeAc&t=4s&ab_channel=OracleLatinoam%C3%A9rica "")
 
 Oracle Next Education es un programa de educación, empleabilidad e inclusión 100% gratuito, creado para ofrecer formación de calidad a personas que no han contado con oportunidades para continuar sus estudios y desarrollar una carrera profesional.
 The program equips students with technical and behavioral skills to act as Jr. Developer, a professional who works to create and improve websites, software, and applications, and prepares them for a job opportunity.
