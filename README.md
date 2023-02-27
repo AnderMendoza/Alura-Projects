@@ -85,6 +85,23 @@ For more information about this platform you can review 👉[here](https://www.a
 
 
 
+<!-- CONTRIBUTING -->
+## Contribution
+
+Contributions are what make the open source community an amazing place to learn, inspire, and create. Any contribution you make is **greatly appreciated**.
+
+If you have a suggestion that would improve this, please fork the repository and create a pull request. You can also simply open an issue with the "improvement" tag. Don't forget to give the project a star! Thanks again!
+
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/improvementOpaMind`)
+3. Commit your changes (`git commit -m 'Adding my features to your project'`)
+4. Push to the same branch (`git push origin feature/OpaMind enhancement`)
+5. Open a Pull Request
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
