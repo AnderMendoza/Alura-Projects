@@ -19,7 +19,7 @@ body {
 h2 {
   text-align: center;
   margin-top: 2em;
-  color: #ffff;
+  color: rgb(209, 209, 1);
   font-size: 5em;
   transition: 2s;
 }
@@ -59,7 +59,6 @@ h4 .a{
   display: flex;
   width: 500px;
   flex-direction: column;
-  padding-right: 4em;
   cursor: url(/img/cursorpointer.png), auto;
 }
 
@@ -164,4 +163,13 @@ h4 .a{
   height: 100px;
   width: 100px;
   cursor: url(/img/cursorpointer.png), auto;
+}
+
+.canvas_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+canvas {
+  background-color: #fff;
 }
