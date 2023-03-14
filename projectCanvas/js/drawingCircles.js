@@ -1,0 +1,28 @@
+var pantalla = document.querySelector("canvas");
+var pincel = pantalla.getContext("2d");    
+pincel.fillStyle = "grey";
+pincel.fillRect(0,0,900,460); 
+var colores = ["blue", "red", "green"];
+var indiceColorActual = 0; // comienza con blue
+
+function dibujarCirculo(evento){
+    var x = evento.pageX - pantalla.offsetLeft;
+    var y = evento.pageY - pantalla.offsetTop;    
+    pincel.fillStyle = colores[indiceColorActual];
+    pincel.beginPath();
+    pincel.arc(x,y,10,0,2*3.14);
+    pincel.fill();
+    console.log(x + "," + y);        
+}
+
+pantalla.onclick = dibujarCirculo;
+
+function alterarColor() {
+    indiceColorActual++;
+    if(indiceColorActual>= colores.length) {
+         indiceColorActual = 0; //go back to the first color, blue
+    }
+    return false; //standard context menu of `canvas` not being displayed
+}
+
+pantalla.oncontextmenu = alterarColor;
