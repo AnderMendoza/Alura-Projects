@@ -198,3 +198,98 @@
 
 
 
+/* RESPONSIVE */
+@media screen and (min-width:0) {
+    .cabecera {
+        padding: 0 1rem;
+        justify-content: center;
+    }
+    .logo {
+        display: none;
+    }
+    .banner__titulo {
+        font-size: 3rem;
+    }
+    .banner__imagen {
+        height: calc(100vh - 51px);
+    }
+    .sobre {
+        padding: 2.5rem 1rem;
+    }
+    .sobre__titulo {
+        font-size: 2rem;
+    }
+    .sobre__descripcion {
+        font-size: 1.3rem;
+    }
+    .receta {
+        margin-right: 3rem;
+        width: 100%;
+    }
+    .recetas {
+        padding: 5rem 0 0 1rem;
+    }
+    .personas {
+        flex-direction: column;
+    }
+    .persona {
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .cabecera {
+        padding: 0 5rem;
+        justify-content: space-between;
+    }
+    .logo {
+        display: block;
+    }
+    .banner__titulo {
+        font-size: 5.0625rem;
+    }
+    .banner__imagen {
+        height: calc(100vh - 72px);
+    }
+    .sobre {
+        padding: 2.5rem;
+    }
+    .sobre__titulo {
+        font-size: 3.1875rem;
+    }
+    .sobre__descripcion {
+        font-size: 1.75rem;
+    }
+    .receta {
+        margin-right: 2.5rem;
+        width: calc(33.33% - 2.5rem);
+    }
+    .recetas {
+        padding: 5rem 0 0 2.5rem;
+    }
+    .personas {
+        flex-direction: row;
+    }
+    .persona {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .receta {
+        margin-right: 5rem;
+        width: calc(25% - 5rem);
+    }
+    .recetas {
+        padding: 5rem 0 0 5rem;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .personas {
+        flex-direction: column;
+    }
+    .persona {
+        margin-bottom: 2rem;
+    }
+}
