@@ -49,3 +49,18 @@
 
 
 
+/* SOBRE */
+.sobre {
+    text-align: center;
+}
+.sobre__titulo {
+    color: #DA2B1F;
+    font-family: Pacifico, cursive;
+}
+.sobre__descripcion {
+    color: #8C8888;
+    font-weight: 100;
+}
+
+
+
