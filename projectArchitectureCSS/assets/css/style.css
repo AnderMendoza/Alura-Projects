@@ -292,4 +292,7 @@
     .persona {
         margin-bottom: 2rem;
     }
+    .rodapie__lista {
+        flex-direction: column;
+    }
 }
