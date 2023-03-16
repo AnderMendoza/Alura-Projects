@@ -64,3 +64,44 @@
 
 
 
+/* RECETAS */
+.recetas {
+    background: #DAB997;
+    display: flex;
+    flex-wrap: wrap;
+}
+.receta {
+    background: #fdfdfd;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+}
+.receta__imagen {
+    height: 200px;
+}
+.receta__contenido {
+    padding: 1rem;
+}
+.receta__titulo {
+    font-size: 1.4375rem;
+}
+.receta__descripcion {
+    font-size: 1.1875rem;
+    line-height: 1.5;
+    text-align: justify;
+}
+.receta__boton {
+    background: #DA2B1F;
+    border: none;
+    border-radius: 5px;
+    color: #fdfdfd;
+    padding: 1rem;
+    transition: all .1s ease-in-out;
+}
+.receta__boton:hover {
+    cursor: pointer;
+    background: #9f1010
+}
+
+
+
