@@ -28,3 +28,10 @@ console.log(btn);
 //listener de un evento
 //insertamos la referencia de createTask
 btn.addEventListener("click", createTask);
+const checkComplete = () => {
+    const i = document.createElement("i");
+    i.classList.add("far");
+    i.classList.add("fa-check-square");
+    i.classList.add("icon");
+    return i
+}
