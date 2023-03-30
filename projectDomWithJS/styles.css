@@ -27,7 +27,7 @@ form {
 }
 
 .mainCard {
-  width: 40vw;
+  width: 45vw;
   border-radius: 25px;
   background-color: #fff;
   padding: 25px;
@@ -124,4 +124,17 @@ form {
 
 .noTasks {
   font-size: 48px;
+}
+
+
+
+/* RESPONSIVE */
+@media screen and (max-width: 768px){
+  .mainCard {
+    width: 70vw;
+    border-radius: 25px;
+    background-color: #fff;
+    padding: 20px;
+    transition: 1s;
+  }
 }
