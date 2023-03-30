@@ -10,13 +10,16 @@ const createTask = ((evento) => {
     task.classList.add("card");
     input.value = "";
     //backlist
-    const content = 
-    `<div>
-        <i class="far fa-check-square icon"></i>
-        <span class="task">${value}</span>
-    </div>
-    <i class="fas fa-trash-alt trashIcon icon"></i>`;
-    task.innerHTML = content;
+    const taskContent = document.createElement("div");
+    taskContent.appendChild(checkComplete());
+    const titleTask = document.createElement("span");
+    titleTask.classList.add("task");
+    titleTask.innerHTML = value;
+    taskContent.appendChild(titleTask);
+    const content = `
+        <i class="fas fa-trash-alt trashIcon icon"></i>`;
+    //task.innerHTML = content;
+    task.appendChild(taskContent);
 
     list.appendChild(task);
 
